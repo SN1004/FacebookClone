@@ -1,0 +1,120 @@
+.Button {
+    border-width:2px;
+    border-style:solid;
+    border-Top:0px;
+    border-Bottom:0px;
+    border-Color:white;
+    background-Color:whitesmoke;
+    padding-Left:15.8px;
+    padding-Right:20px;
+    padding-Top:5px;
+    padding-Bottom:4px;
+    font-size: 14px;
+}
+
+.ContainerBG {
+    background-color: lightcyan;
+    margin-bottom: 2000px;
+}
+
+.Header {
+    color:blue;
+    padding:15px;
+    background-Color:blue;
+}
+
+.SearchBar {
+    color:grayscale($color: #000000);
+    padding:6px;
+    margin-Left:300px;
+    background-Color:white;
+    padding-Right:400px;
+    border-Radius:5px;         
+}
+
+.ProfileBackground {
+    color:black;
+    text-align:center;
+    background-Color:skyblue;
+    margin-inline-end:35%;
+    margin-Left:400px;
+    border-Color:whitesmoke;
+    border-Style:solid;
+    border-width:3px;
+}
+
+.ProfileImage {
+    text-align:center;
+    color:black;
+    background-Color:skyblue;
+    margin-inline-end:76%;
+    margin-Left:5px;
+    margin-bottom: 3px;
+    padding-bottom: 50px;
+    padding-Top:50px;
+    margin-Top:120px;
+    border-Color:whitesmoke;
+    border-Style:solid;
+    border-Width:3px;
+}
+
+.ButtonContainer {
+    background-Color:whitesmoke;
+    padding:3.5px;
+    margin-left: -3px;
+    padding-Left:100px;
+    padding-bottom: 3px;
+    border-Style:solid;
+    border-Color:white;
+    border-Width:2px;
+}
+
+.NewsFeed {
+    background-color: rgb(178, 197, 240);
+    color: black;
+    margin-top: -300px;
+    padding:10px;
+    margin-inline-end: 14%;
+    margin-inline-start: 70%;
+}
+
+.Feeds {
+    text-align: center;
+    background-color: lightcyan;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+.ContainerTimeline {
+    display: flex;
+    background-color: lightcyan;
+    margin-top: 150px;
+    margin-inline-end:35%;
+    margin-Left:80px;
+}
+
+.ContainerPhotos {
+    display: flex;
+    position: static;
+    background-color: whitesmoke;
+    margin-inline-end: 70%;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+.ContainerPosts {
+    display: flex;
+    background-color:  whitesmoke;
+    margin-left: -600px;
+    width: 600px;
+    height: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+}

@@ -13,8 +13,9 @@
 }
 
 .ContainerBG {
+    inset-inline-end: 50%;
     background-color: lightcyan;
-    margin-bottom: 2000px;
+    scroll-margin-bottom: 100%;
 }
 
 .Header {
@@ -50,9 +51,9 @@
     margin-inline-end:76%;
     margin-Left:5px;
     margin-bottom: 3px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     padding-Top:50px;
-    margin-Top:120px;
+    margin-Top:150px;
     border-Color:whitesmoke;
     border-Style:solid;
     border-Width:3px;
@@ -66,12 +67,15 @@
     padding-bottom: 3px;
     border-Style:solid;
     border-Color:white;
+    position: sticky;
     border-Width:2px;
 }
 
 .NewsFeed {
+    text-align: center;
     background-color: rgb(178, 197, 240);
     color: black;
+    border-radius: 2px;
     margin-top: -300px;
     padding:10px;
     margin-inline-end: 14%;
@@ -90,31 +94,51 @@
 }
 
 .ContainerTimeline {
-    display: flex;
+    position: sticky;
+    top: 10px;
     background-color: lightcyan;
     margin-top: 150px;
-    margin-inline-end:35%;
-    margin-Left:80px;
+    margin-left: 50px;
+    margin-inline-end:100%;
 }
 
 .ContainerPhotos {
     display: flex;
-    position: static;
+    position: sticky;
+    top: 10px;
+    margin-bottom: 10px;
     background-color: whitesmoke;
     margin-inline-end: 70%;
     width: 300px;
     border-style: solid;
-    border-width: 2px;
-    border-radius: 20px;
+    border-width: 1.6px;
+    border-radius: 10px;
 }
 
 .ContainerPosts {
     display: flex;
+    position: sticky;
+    top: 150px;
     background-color:  whitesmoke;
-    margin-left: -600px;
-    width: 600px;
-    height: 200px;
+    margin-left: -1472px;
+    margin-top: 150px;
+    width: 582px;
+    height: 3000px;
     border-style: solid;
     border-width: 2px;
     border-radius: 3px;
+}
+
+.ContainerofPostandTimeline {
+    display: flex;
+    position: relative;
+}
+
+.ContainerSearchBar {
+    margin-Top: -35px;
+    display: flex;
+}
+
+.ContainerSearchBar-->img {
+    image-resolution: 20px;
 }

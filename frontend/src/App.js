@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
 import './index.module.css'
 import styles from './styles.module.scss'
-import SearchIcon from '@mui/icons-material/Search';
+import HomePage from './Pages/Home';
+// import SearchIcon from '@mui/icons-material/Search';
 
-export default class QuantityInput extends Component { 
-   render() {
-
+export default function App() { 
   return (
     <div className={styles.ContainerBG}>
       <div className={styles.Header}>
         <div style={{color:`white`}}>
           <a style={{color:`white`,fontSize:25,fontFamily:`Italic`,fontWeight:`bold`}}>Facebook</a>
-          <div className={styles.ContainerSearchBar}><input type="text" className={styles.SearchBar} /><SearchIcon/></div>
+          {/* <div className={styles.ContainerSearchBar}><input type="text" className={styles.SearchBar} /><SearchIcon/></div> */}
         </div>
       </div>
+      <HomePage />
       <div className={styles.ProfileBackground}>
         Profile Background Image
         <div className={styles.ProfileImage}>
@@ -60,5 +60,4 @@ export default class QuantityInput extends Component {
       </div>
     </div>
   );
-  }
 }

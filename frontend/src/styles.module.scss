@@ -1,144 +1,145 @@
 .Button {
-    border-width:2px;
-    border-style:solid;
-    border-Top:0px;
-    border-Bottom:0px;
-    border-Color:white;
-    background-Color:whitesmoke;
-    padding-Left:15.8px;
-    padding-Right:20px;
-    padding-Top:5px;
-    padding-Bottom:4px;
-    font-size: 14px;
+	border-width: 2px;
+	border-style: solid;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-color: rgb(59, 59, 59);
+	background-color: rgba(126, 126, 126, 0.363);
+	padding-left: 15.8px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	font-size: 14px;
 }
 
 .ContainerBG {
-    inset-inline-end: 50%;
-    background-color: lightcyan;
-    scroll-margin-bottom: 100%;
+	inset-inline-end: 50%;
+	background-color: rgb(255, 255, 255);
+	scroll-margin-bottom: 100%;
 }
 
 .Header {
-    color:blue;
-    padding:15px;
-    background-Color:blue;
+	color: rgb(1, 1, 78);
+	padding: 15px;
+	background-color: rgb(0, 0, 94);
 }
 
 .SearchBar {
-    color:grayscale($color: #000000);
-    padding:6px;
-    margin-Left:300px;
-    background-Color:white;
-    padding-Right:400px;
-    border-Radius:5px;         
+	background-color: rgb(255, 255, 255);
+	color: grayscale($color: #000000);
+	padding: 6px;
+	margin-left: 20%;
+	width: 40%;
+	border-radius: 5px;
 }
 
 .ProfileBackground {
-    color:black;
-    text-align:center;
-    background-Color:skyblue;
-    margin-inline-end:35%;
-    margin-Left:400px;
-    border-Color:whitesmoke;
-    border-Style:solid;
-    border-width:3px;
+	color: black;
+	text-align: center;
+	background-color: rgb(182, 181, 181);
+	margin-inline-end: 35%;
+	margin-left: 400px;
+	border-color: rgb(187, 187, 187);
+	border-style: solid;
+	border-width: 3px;
+	z-index: 2;
 }
 
 .ProfileImage {
-    text-align:center;
-    color:black;
-    background-Color:skyblue;
-    margin-inline-end:76%;
-    margin-Left:5px;
-    margin-bottom: 3px;
-    padding-bottom: 60px;
-    padding-Top:50px;
-    margin-Top:150px;
-    border-Color:whitesmoke;
-    border-Style:solid;
-    border-Width:3px;
+	text-align: center;
+	color: rgb(170, 167, 167);
+	background-color: rgb(105, 104, 104);
+	margin-inline-end: 76%;
+	margin-left: 5px;
+	margin-bottom: 3px;
+	padding-bottom: 60px;
+	padding-top: 50px;
+	margin-top: 150px;
+	border-color: rgb(65, 63, 63);
+	border-style: solid;
+	border-width: 3px;
 }
 
 .ButtonContainer {
-    background-Color:whitesmoke;
-    padding:3.5px;
-    margin-left: -3px;
-    padding-Left:100px;
-    padding-bottom: 3px;
-    border-Style:solid;
-    border-Color:white;
-    position: sticky;
-    border-Width:2px;
+	background-color: rgb(255, 255, 255);
+	padding: 3.5px;
+	margin-left: -3px;
+	padding-left: 100px;
+	padding-bottom: 3px;
+	border-style: solid;
+	border-color: rgb(56, 51, 51);
+	position: sticky;
+	border-width: 2px;
+	z-index: 1;
 }
 
 .NewsFeed {
-    text-align: center;
-    background-color: rgb(178, 197, 240);
-    color: black;
-    border-radius: 2px;
-    margin-top: -300px;
-    padding:10px;
-    margin-inline-end: 14%;
-    margin-inline-start: 70%;
+	text-align: center;
+	background-color: rgb(182, 181, 181);
+	border-radius: 2px;
+	margin-top: -300px;
+	padding: 10px;
+	margin-inline-end: 14%;
+	margin-inline-start: 70%;
 }
 
 .Feeds {
-    text-align: center;
-    background-color: lightcyan;
-    border-width: 4px;
-    border-style: solid;
-    border-color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-top: 20px;
+	text-align: center;
+	background-color: rgb(182, 181, 181);
+	border-width: 4px;
+	border-style: solid;
+	border-color: rgb(56, 56, 56);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 20px;
 }
 
 .ContainerTimeline {
-    position: sticky;
-    top: 10px;
-    background-color: lightcyan;
-    margin-top: 150px;
-    margin-left: 50px;
-    margin-inline-end:100%;
+	position: sticky;
+	top: 10px;
+	background-color: rgb(182, 181, 181);
+	margin-top: 150px;
+	margin-left: 50px;
+	margin-inline-end: 100%;
 }
 
 .ContainerPhotos {
-    display: flex;
-    position: sticky;
-    top: 10px;
-    margin-bottom: 10px;
-    background-color: whitesmoke;
-    margin-inline-end: 70%;
-    width: 300px;
-    border-style: solid;
-    border-width: 1.6px;
-    border-radius: 10px;
+	display: flex;
+	position: sticky;
+	top: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(182, 181, 181);
+	margin-inline-end: 70%;
+	width: 300px;
+	border-style: solid;
+	border-width: 1.6px;
+	border-radius: 10px;
 }
 
 .ContainerPosts {
-    display: flex;
-    position: sticky;
-    top: 150px;
-    background-color:  whitesmoke;
-    margin-left: -1472px;
-    margin-top: 150px;
-    width: 582px;
-    height: 3000px;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 3px;
+	display: flex;
+	position: sticky;
+	top: 150px;
+	background-color: rgb(182, 181, 181);
+	margin-left: -1500px;
+	margin-top: 150px;
+	width: 582px;
+	height: 3000px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 3px;
 }
 
 .ContainerofPostandTimeline {
-    display: flex;
-    position: relative;
+	display: flex;
+	position: relative;
 }
 
 .ContainerSearchBar {
-    margin-Top: -35px;
-    display: flex;
+	display: inline-block;
+	width: 94%;
 }
 
-.ContainerSearchBar-->img {
-    image-resolution: 20px;
+.ContainerSearchBar-- > img {
+	image-resolution: 20px;
 }
